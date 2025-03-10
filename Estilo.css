@@ -1,0 +1,188 @@
+#header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#main .template{
+    flex-direction: column;
+    text-align: center;
+    background-color: #F0F0F0;
+}
+#main .template h2{
+    margin:0;
+}
+#main .template p{
+    margin:0;
+}
+.titulo{
+    text-align: center;
+}
+.titulo h1{
+    margin-bottom:0;
+}
+.titulo p{
+    margin-top:0;
+}
+.box1{
+    display: flex;
+    width: 100%;
+    height: 322px;
+    background-color: #F0F0F0;
+}
+.box1 .text{
+    margin-left: 23px;
+}
+.box2{
+    background-image: url(/images/montanha.jpeg);
+    width: 100%;
+    height: 323px;
+    background-size: cover;
+    background-position: 100%;
+    display: flex;
+    font-size: large;
+}
+.text2{
+    margin: 100px;
+    margin-left: 25px;
+    align-content: start;
+}
+.box3{
+    justify-content: space-evenly;
+    display: flex;
+    height: 315px;
+    margin-top: -20px;
+}
+.frame2 {
+    background-image: url(images/Frame\ 2.jpg);
+    width: 100%;
+    height: 315px;
+    background-size: cover;
+    background-position: 100%;
+}
+.frame3 {
+    background-image: url(images/Frame\ 3.jpg);
+    width: 100%;
+    height: 315px;
+    background-size: cover;
+    background-position: 100%;
+}
+.frame4 {
+    background-image: url(images/Frame\ 4.jpg);
+    width: 100%;
+    height: 315px;
+    background-size: cover;
+    background-position: 100%;
+}
+
+.box4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.box4 h2{
+    margin-bottom: 0;
+}
+.box4 p{
+    margin-top: 0;
+}
+.colunas {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.coluna1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.coluna2{
+    display: flex;
+    flex-direction: column;
+    
+}
+.coluna3{
+    display: flex;
+    flex-direction: column;
+}
+#footer{
+    background-color: #F0F0F0;
+    padding-top: 20px;
+}
+@media  screen and (max-width:900px) {
+    .titulo{
+        width: 100%;
+        padding: 20px;
+    }
+    .box1{
+        display: flex;
+        flex-direction: column;
+    }
+    .box1 .text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px;
+        margin-left: 0;
+        background-color: #F0F0F0;
+        box-sizing: border-box;
+    }
+    .box1 img{
+        width: 100%;
+    }
+    .box2 {
+        width: 100%;
+        margin-top: 180px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .box2 .text2{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 60px 0 0 5px;
+    }
+    .box3 {
+        height: 100%;
+        flex-direction: column; 
+    }
+    .frame2,.frame3,.frame4{
+    width: 100%;
+    height: 100%; 
+    padding-bottom: 400px;
+    padding-right: 40px;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    }
+    #footer{
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .colunas {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+    .coluna1{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: left;
+        margin: 0 0 20px 0;
+        
+    }
+    .coluna2,.coluna3{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    .Contato {
+        width: 100%;
+        margin-bottom: 20px; 
+        text-align: left;
+    }
+}
